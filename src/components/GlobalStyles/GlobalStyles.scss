@@ -1,0 +1,37 @@
+@import 'normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root {
+    --white: #fff;
+    --black: #000;
+}
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+}
+body {
+    font-size: 1.6rem;
+    font-family: 'Bebas Neue', 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+ul,
+li,
+ol {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+h1 {
+    letter-spacing: 1px;
+}
