@@ -1,3 +1,51 @@
 .nav {
-    color: red;
+    height: var(--nav-height);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--black);
+    color: white;
+    padding: 0 40px;
+}
+
+.logo {
+    height: 80px;
+}
+
+.nav-left {
+    display: flex;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link {
+    padding: 0 16px;
+    a {
+        font-weight: 500;
+    }
+    a:hover {
+        color: #2b94f0;
+    }
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.sign-btn {
+    color: white;
+    background-color: var(--primary-color);
+    padding: 8px 12px;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #2480d0;
+    }
 }
